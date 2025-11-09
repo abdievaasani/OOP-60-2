@@ -1,0 +1,25 @@
+
+class GameCharacter:
+    def __init__(self, name, level, health):
+        self.name = name
+        self.level = level
+        self.health = health
+
+    def describe(self):
+        return f"{self.name} — уровень {self.level}, здоровье: {self.health} HP."
+
+    def level_up(self):
+        self.level += 1
+        self.health += 20
+        print(f"{self.name} повысил уровень! Теперь уровень {self.level} и здоровье {self.health} HP.")
+
+hero1 = GameCharacter("Арина", 5, 100)
+hero2 = GameCharacter("Лео", 3, 80)
+
+print(hero1.describe())
+hero1.level_up()
+print(hero1.describe())
+
+print(hero2.describe())
+hero2.level_up()
+print(hero2.describe())

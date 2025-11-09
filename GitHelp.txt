@@ -1,0 +1,12 @@
+Команда для регистрации ваших данных
+git config --global user.name "abdievaasani"
+git config --global user.email "abdievaasani@gmail.com"
+
+
+Команда только для одного проекта
+
+git init        | инициализация Гита
+git remote add origin link_to_repository | Добавления репозитория
+
+git add .        | Добавление файлов в буфер обмена
+git commit -m "message" | сохранение всего из буфера обмена
