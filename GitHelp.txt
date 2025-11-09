@@ -8,5 +8,9 @@ git config --global user.email "abdievaasani@gmail.com"
 git init        | инициализация Гита
 git remote add origin link_to_repository | Добавления репозитория
 
+git status       | статус репозитория
+
 git add .        | Добавление файлов в буфер обмена
-git commit -m "message" | сохранение всего из буфера обмена
+git commit -m "message" | сохранение всего из буфера обменаgi
+
+git push origin master  | отправка всех сохранений на сайт GitHub
