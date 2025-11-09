@@ -1,16 +1,48 @@
 Команда для регистрации ваших данных
-git config --global user.name "abdievaasani"
-git config --global user.email "abdievaasani@gmail.com"
+1) git config --global user.name "abdievaasani"
+2) git config --global user.email "abdievaasani@gmail.com"
 
 
 Команда только для одного проекта
 
-git init        | инициализация Гита
-git remote add origin link_to_repository | Добавления репозитория
+3) git init                 | Инициализация Гита
+4) git remote add origin link_to_repository | Добавления репозитория
 
-git status       | статус репозитория
+5) git status               | статус репозитория
 
-git add .        | Добавление файлов в буфер обмена
-git commit -m "message" | сохранение всего из буфера обменаgi
+6) git add .                | Добавление файлов в буфер обмена
+7) git commit -m "message"  | Сохранение всего из буфера обменаgi
 
-git push origin master  | отправка всех сохранений на сайт GitHub
+8) git push origin master   | Отправка всех сохранений на сайт GitHub
+
+
+9) git branch               | Просмотреть все ветки
+10) git branch new_branch   | Создать новую ветку
+11) git checkout new_branch | Переключиться на новую ветку
+    git switch new_branch   | Переключиться на новую ветку
+12) git restore             | Вернуть файл исходное состояние
+13) git reset               | Вернуть файл исходное состояние после git add
+14) git reset --mixed HEAD~1| Удалить последний commit и вернуть исходное состояние
+
+
+
+dev  ---ветка для разработчиков
+stage/test ---тестировщиков
+production ---релиз
+
+
+
+feat/   ---добавление
+fix/    ---чинить
+update/ ---обновление
+hotfix/ ---
+delete/
+
+
+git commit -m "fix: fixing bug on login page"
+git commit -m "feat: add new feature"
+git commit -m "update: fix bug on login page"
+git commit -m "hotfix: fix bug on login page"
+
+
+
